@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/planotras"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:gravity="fill"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginTop="10sp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/logosorte" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:background="#F8F8FF"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="Usuário: Em teste"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/imageButton"
+                android:layout_width="199sp"
+                android:layout_height="94dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="2dp"
+                android:adjustViewBounds="true"
+                android:autoSizeTextType="none"
+                android:background="@color/zxing_status_text"
+                android:drawableLeft="@mipmap/sair"
+                android:drawablePadding="25dp"
+                android:paddingLeft="10dp"
+                android:scaleType="fitCenter"
+                android:text=" SAIR"
+                android:textAlignment="textStart"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/imageButton1"
+                android:layout_width="199sp"
+                android:layout_height="94dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="2dp"
+                android:adjustViewBounds="true"
+                android:background="@color/zxing_status_text"
+                android:drawableLeft="@mipmap/gerenciar"
+                android:paddingLeft="10dp"
+                android:scaleType="fitStart"
+                android:text=" GERENCIAR CLIENTES"
+                android:textAlignment="textStart"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/imageButton2"
+                android:layout_width="199dp"
+                android:layout_height="94dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="2dp"
+                android:adjustViewBounds="true"
+                android:background="@color/zxing_status_text"
+                android:drawableLeft="@mipmap/etiqueta"
+                android:paddingLeft="10dp"
+                android:scaleType="fitStart"
+                android:text=" PEDIDOS"
+                android:textAlignment="textStart"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/imageButton3"
+                android:layout_width="199dp"
+                android:layout_height="94dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="2dp"
+                android:adjustViewBounds="true"
+                android:background="@color/zxing_status_text"
+                android:drawableLeft="@mipmap/relatorio"
+                android:paddingLeft="10dp"
+                android:scaleType="fitStart"
+                android:text=" RELATÓRIOS"
+                android:textAlignment="textStart"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/imageButton4"
+                android:layout_width="199dp"
+                android:layout_height="94dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="2dp"
+                android:adjustViewBounds="true"
+                android:background="@color/zxing_status_text"
+                android:drawableLeft="@mipmap/loja"
+                android:paddingLeft="10dp"
+                android:scaleType="fitStart"
+                android:text=" LOJA CAMBISTA"
+                android:textAlignment="textStart"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/imageButton5"
+                android:layout_width="199dp"
+                android:layout_height="94dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="2dp"
+                android:adjustViewBounds="true"
+                android:background="@color/zxing_status_text"
+                android:drawableLeft="@mipmap/dinheiro"
+                android:paddingLeft="10dp"
+                android:scaleType="fitStart"
+                android:text=" CAIXA CAMBISTA"
+                android:textAlignment="textStart"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/imageButton6"
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:background="@color/zxing_status_text"
+                android:drawableLeft="@mipmap/perfil"
+                android:paddingLeft="10dp"
+                android:scaleType="fitStart"
+                android:text=" PERFIL"
+                android:textAlignment="textStart"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
